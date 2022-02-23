@@ -1,0 +1,72 @@
+html{
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	margin: 0;
+	background-color: #efefef; 
+}
+
+header{
+	background-color: #364552;
+	color: white;
+	padding:  2rem 1rem;
+}
+
+header h1 {
+	font-size: 3rem;
+	text-align: center;
+}
+
+
+.text {
+	text-shadow: 10px;
+	font-size: 20px;
+}
+
+
+button{
+	width: 75px;
+	height: 30px;
+}
+
+footer{
+	background-color: #222;
+	padding: 3rem;
+	color: #fff;
+}
+
+footer section{
+	float: right;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a {
+	transition: color 0.3s ease;
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: cornflowerblue;
+}
+
+.resultado{ 
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 18px; 
+font-weight: 400;
+height: 20px; 
+text-align: center; 
+background: #889ccf; 
+margin: 0 0 25px; 
+overflow: hidden; 
+padding: 20px; 
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;
+}
