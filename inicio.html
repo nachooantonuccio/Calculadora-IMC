@@ -12,11 +12,9 @@
 	<header id="header">
 		<h1 >Calculá tu Indice de Masa Corporal</h1>
 	</header>
-<br>
-<br>
-<br>
 <center>
 <form>
+<section class="form-register">
 <p class="texto">Ingrese su altura en Metros</p>
       <input type="text" id="altura" name="numero1"> <br> (Ejemplo: 1.85)
       <br>
@@ -26,16 +24,18 @@
       <input type="text" id="peso" name="numero2" > <br> (Ejemplo: 80)
       <br>
 </form>
+</section>
 <br>
 <br>
 <button class="button" onclick="calcularIMC()">Calcular</button>
 <button class="button" onclick="limpiar()">Limpiar</button>
 </center>
 <br>
-<br>
-<br>
+<center>
 <h2> Tu indice de masa corporal es </h2>
-<div id="resultado" class="resultado"></div>
+</center>
+<section id="resultado">
+</section>
 </body>
 <table>
 	<tr>

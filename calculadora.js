@@ -2,7 +2,7 @@ function calcularIMC(){
 	var altura = document.getElementById("altura");
 	var peso = document.getElementById("peso");
 	if(altura.value == "" || peso.value == ""){
-		alert("Debe ingresar el peso y la altura");
+		alert("Debe ingresar altura y peso");
 	}
 	else{
 		var IMC = (peso.value / (altura.value ** 2));
