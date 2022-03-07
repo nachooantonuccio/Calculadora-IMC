@@ -10,7 +10,7 @@ body{
 header{
 	background-color: #364552;
 	color: white;
-	padding:  2rem 1rem;
+	padding:  1rem 1rem;
 }
 
 
@@ -21,13 +21,15 @@ header h1 {
 }
 
 .form-register{
-	width: 400px;
-	background: #364552;
-	padding: 30px;
-	margin-top: 70px;
-	border-radius: 4px;
-	color: white;
-	align-content: center;
+    margin: auto;
+    margin-top: 80px;
+    width: 400px;
+    background: #364552;
+    padding: 30px;
+    border-radius: 4px;
+    color: white;
+    align-content: center;
+    text-align: center;
 }
 
 input{
@@ -38,24 +40,27 @@ input{
 }
 
 
-.text {
-	text-shadow: 10px;
+.texto {
+	margin: 10px;
 	font-size: 20px;
 }
 
 
 .button {
-	display: inline-block;
-	border-radius: 4px;
-	background-color: #364552;
-	color: #FFFFFF;
-	text-align: center;
-	font-size: 28px;
-	padding: 20px;
-	width: 200px;
-	transition: all 0.5s;
-	cursor: pointer;
-	margin: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #364552;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 228px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button span {
   	cursor: pointer;
@@ -64,7 +69,7 @@ input{
   	transition: 0.5s;
 }
 .button span:after {
-	content: '\00bb';  /* Entidades CSS. Para usar entidades HTML, use &#8594;*/
+	content: '\00bb';
 	position: absolute;
   	opacity: 0;
   	top: 0;
@@ -82,7 +87,7 @@ input{
 
 footer{
 	background-color: #222;
-	padding: 3rem;
+	padding: 2.5rem;
 	color: #fff;
 }
 
@@ -117,8 +122,10 @@ footer a:hover {
 
 table {
 	border-collapse: collapse;
-	margin-left: 15px;
-	margin-top: 20px;
+	margin: 40px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 th, td {	
@@ -126,4 +133,8 @@ th, td {
 	border: solid 1px;
 	border-color: grey;
 	padding: 5px;
+}
+
+.inputAltura{
+	margin-bottom: 40px;
 }
